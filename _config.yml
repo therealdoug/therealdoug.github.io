@@ -2,7 +2,7 @@ title: Things They Don't Teach You
 description: Things I've learned along the way.  Typically technology related content.
 timezone: America/New_York
 remote_theme: pmarsceill/just-the-docs
-color_scheme: dark
+# color_scheme: dark
 search_enabled: true
 
 footer_content: "Doug Byrd"
