@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome
+title: Ansible Tips and Tricks
 ---
 
 ## Include files in directory as Var
