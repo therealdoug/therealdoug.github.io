@@ -7,6 +7,7 @@ title: Ansible Tips and Tricks
 
 Variable name will be name of file minus extension
 
+{% raw %}
 ```yaml
 ---
 - hosts: localhost
@@ -24,3 +25,4 @@ Variable name will be name of file minus extension
         name: "{{ item | basename | splitext | first }}" # Set variable name to filename minus extension
       loop: "{{ query('ansible.builtin.fileglob','data/aci/*.json') }}" # Loop over all the files in directory
 ```
+{% endraw %}
